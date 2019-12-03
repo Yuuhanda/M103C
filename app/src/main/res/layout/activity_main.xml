@@ -24,19 +24,26 @@
                 android:textAlignment="center"
                 android:textSize="24sp" />
 
-            <Button
-                android:id="@+id/btn_start_update"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="15sp"
-                android:text="start update" />
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/btn_stop_update"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="15sp"
-                android:text="stop update" />
+                <Button
+                    android:id="@+id/btn_start_update"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_margin="15sp"
+                    android:background="@drawable/loc_btn" />
+
+                <Button
+                    android:id="@+id/btn_stop_update"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_margin="15sp"
+                    android:background="@drawable/stop_btn" />
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
